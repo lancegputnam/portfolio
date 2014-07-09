@@ -1,0 +1,40 @@
+// bower:scss
+// endbower
+
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.image-border {
+    width: 360px;
+    height: 360px;
+    background-color: #F9F8F6;
+    margin-top: 21px;
+    margin-left: 26px;
+    position: absolute;
+}
+
+.image-box {
+    width: 900px;
+    height: 400px;
+    background-color: #343132;
+}
+
+.image-box img {
+    height: 335px;
+    width: 335px;
+    position: absolute;
+    margin-left: 38px;
+    margin-top: 34px;   
+}
