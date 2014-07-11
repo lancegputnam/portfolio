@@ -2,18 +2,45 @@
 // endbower
 
 body {
-    background: #fafafa;
+    background: #FEFEFE;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
 }
 
 .container {
-    margin-left: 250px;
+    margin-left: 200px;
     margin-right: 250px;
 }
 
 .header h1 {
-    text-align: center;
+    text-align: center; 
+    font-family: "Crazy Thoughts", sans-serif;
+    font-size: 6em;
+}
+
+.sub-header li {
+    display: inline;
+    color: #064780;
+}
+
+.sub-header li:hover {
+    color: #A0C2DE
+}
+
+.sub-header {
+    word-spacing: 65px;
+    margin-left: 438px;
+    font-family: "Code Bold", sans-serif;
+    color: #064780;
+    font-size: 1.250em;
+    margin-top: -60px;
+}
+
+.page-breaker {
+    width: 1000px;
+    height: 3px;
+    background-color: #A0C2DE;
+    margin-left: 200px;
 }
 
 .image-border {
@@ -28,7 +55,8 @@ body {
 .image-box {
     width: 900px;
     height: 400px;
-    background-color: #343132;
+    background-color: #064780;
+    margin-top: 75px;
 }
 
 .image-box img {
