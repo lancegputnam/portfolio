@@ -2,14 +2,14 @@
 // endbower
 
 body {
-    background: #FEFEFE;
+    background: #fff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
 }
 
-.container {
+.projects-container {
     margin-left: 200px;
-    margin-right: 250px;
+    margin-right: 200px;
 }
 
 .header h1 {
@@ -29,7 +29,7 @@ body {
 
 .sub-header {
     word-spacing: 65px;
-    margin-left: 438px;
+    margin-left: 362px;
     font-family: "Code Bold", sans-serif;
     color: #064780;
     font-size: 1.250em;
@@ -40,35 +40,66 @@ body {
     width: 1000px;
     height: 3px;
     background-color: #A0C2DE;
-    margin-left: 200px;
+    margin-left: 190px;
 }
 
 .image-border {
-    width: 360px;
-    height: 360px;
+    width: 325px;
+    height: 325px;
     background-color: #F9F8F6;
     margin-top: 21px;
-    margin-left: 26px;
+    margin-left: 172px;
     position: absolute;
 }
 
 .image-box {
     width: 900px;
     height: 400px;
-    background-color: #064780;
     margin-top: 75px;
+    display: inline-block;
 }
 
 .image-box img {
-    height: 335px;
-    width: 335px;
+    height: 300px;
+    width: 300px;
     position: absolute;
-    margin-left: 38px;
+    margin-left: 185px;
     margin-top: 34px;   
 }
 
-.surfboard img {
+.about-info p {
+    display: inline;
+    margin-left: 523px;
+    position: absolute;
     width: 500px;
-    height: 300px;
-    margin-top: 50px;
 }
+
+.project-photo-container img {
+    width: 250px;
+    height: 250px;
+    display: inline;
+}
+
+.project-title {
+    font-size: 16px;
+}
+
+.about-project {
+    font-size: 14px;
+}
+
+.about-project  {
+    width: 250px;
+    height: 250px;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #A0C2DE;
+    top: 0;
+    left: 0;
+    background-size: 100% 100%;
+}
+
+
