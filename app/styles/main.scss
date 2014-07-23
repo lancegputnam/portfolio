@@ -1,6 +1,6 @@
 // bower:scss
 // endbower
-
+@import url(http://fonts.googleapis.com/css?family=Antic+Slab);
 // *{border: 2px solid red;}
 body {
     background: #fff;
@@ -25,6 +25,7 @@ body {
         margin: 2em 0 0 20%;
         position: absolute;
         display: inline;
+        word-spacing: 170px;
     }
 
     li {
