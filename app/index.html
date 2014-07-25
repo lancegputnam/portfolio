@@ -12,9 +12,9 @@
 
         <!-- endbower -->
         <!-- endbuild -->
-        <link @font-face { font-family: basic title font; src: url('basictitlefont.ttf'); }>
         <link href='http://fonts.googleapis.com/css?family=Antic+Slab' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         
         <!-- build:css(.tmp) styles/main.css -->
@@ -43,71 +43,85 @@
         </div>
 
         <div class="about-page" id="about">
-            <h1> LANCE GRAYSON PUTNAM </h1>
-            <p> My name is Lance Putnam and I am a digitally-minded problem solver. I am a graduate of Presbyterian College, the Clemson MBA in Entrepreneurship program, and most recently, the Front-End Engineering Course in The Iron Yard Academy. I started at The Iron Yard to hone in on an expertise that I have long admired, and one that I became familiar with during my entrepreneurial studies. Now, I am a Front-End Developer with a passion for startups and innovation. 
-            </p>
+            <div class="float-left">
+                <h1> LANCE GRAYSON PUTNAM </h1>
+                <p> My name is Lance Putnam and I am a digitally-minded problem solver. I am a graduate of Presbyterian College, the Clemson MBA in Entrepreneurship program, and most recently, the Front-End Engineering Course in The Iron Yard Academy. I started at The Iron Yard to hone in on an expertise that I have long admired, and one that I became familiar with during my entrepreneurial studies. Now, I am a Front-End Developer with a passion for startups and innovation. 
+                </p>
+            </div>
             <img src="https://farm4.staticflickr.com/3881/14421898398_eb88946349_o.jpg"/>
         </div>
 
         <div class="front-end-page">
             <img src="https://farm4.staticflickr.com/3848/14539247619_921ee6ae18_o.jpg"/>
-            <h1> FRONT-END DEVELOPER </h1>
-            <p> After a three-month intensive study at The Iron Yard Academy, and with no prior development experience, I have successfully hand-coded applications with HTML, CSS and JavaScript. Our curriculum at The Iron Yard went far beyond these languages and gave us experience in jQuery, Underscore.js, Backbone, Parse, SASS, Git, and in building responsive websites. As a lifelong learner, the academy taught me to think like a front-end engineer as I continue to grow and learn in this ever-changing field. With my blend of design talent and entrepreneurial spirit, I am eager to take on my new-found passion of web development and make great ideas happen. 
-            </p>
+            <div class="float-right">
+                <h1> FRONT-END DEVELOPER </h1>
+                <p> After a three-month intensive study at The Iron Yard Academy, and with no prior development experience, I have successfully hand-coded applications with HTML, CSS and JavaScript. Our curriculum at The Iron Yard went far beyond these languages and gave us experience in jQuery, Underscore.js, Backbone, Parse, SASS, Git, and in building responsive websites. As a lifelong learner, the academy taught me to think like a front-end engineer as I continue to grow and learn in this ever-changing field. With my blend of design talent and entrepreneurial spirit, I am eager to take on my new-found passion of web development and make great ideas happen. 
+                </p>
+            </div>
         </div>
 
         <div class="projects-page" id="projects">
             <h1> PROJECTS </h1>
             <div class="project-one">
-                <h2> EnterTrep </h2>
                 <img src='https://farm4.staticflickr.com/3922/14706896104_3f063dd8d4_o.png'/>
-                <p> EnterTrep was created for my final project within The Iron Yard Academy. The project is the beginning of a community powered database of industry resources for entrepreneurs. New users are able to sign up for a account and create their own profiles. The information is then successfully stored into a Parse database. Current features that I am working on for EnterTrep are the vendor profiles, search features, and the Idea Pad on the user profile pages.</p>
-                <span> Primary Technologies: HTML, CSS, JS, Backbone, Parse </span>
-                <div class="one-buttons">
-                    <a href='http://lancegputnam.github.io/entertrep-project'><button class="view-live-button button"> VIEW LIVE </button></a>
-                    <a href='https://github.com/lancegputnam/entertrep-project'><button class="view-code-button button"> VIEW CODE </button></a>
+                <div class="entertrep-float">
+                    <h2> EnterTrep </h2>
+                    <p> EnterTrep was created for my final project within The Iron Yard Academy. The project is the beginning of a community powered database of industry resources for entrepreneurs. New users are able to sign up for a account and create their own profiles. The information is then successfully stored into a Parse database. Current features that I am working on for EnterTrep are the vendor profiles, search features, and the Idea Pad on the user profile pages.</p>
+                    <span> Primary Technologies: HTML, CSS, JS, Backbone, Parse </span>
+                    <div class="one-buttons">
+                        <a href='http://lancegputnam.github.io/entertrep-project'><button class="view-live-button button"> VIEW LIVE </button></a>
+                        <a href='https://github.com/lancegputnam/entertrep-project'><button class="view-code-button button"> VIEW CODE </button></a>
+                    </div>
                 </div>
             </div>
             <div class="project-two">
-                <h2> The Bourbon Pond </h2>
                 <img src="https://farm4.staticflickr.com/3914/14461138177_3838000812_o.png"/>
-                <p> The Bourbon Pond is an application that allows users to browse through a curated selection of bourbon related items that are found on Etsy. The website pulls items from the Etsy API to display items on the site. The Bourbon Pond was also my first experience in using jQuery and methods such as forEach. </p>
-                <span> Primary Technologies: HTML, CSS, JS, jQuery, Etsy API </span>
-                <div class="two-buttons">
-                    <a href='http://lancegputnam.github.io/The-Bourbon-Pond-Day-11-jQuery'><button class="view-live-button button"> VIEW LIVE </button></a>
-                    <a href='https://github.com/lancegputnam/day-11-jquery'><button class="view-code-button button"> VIEW CODE </button></a>
+                <div class="bourbon-float">
+                    <h2> The Bourbon Pond </h2>
+                    <p> The Bourbon Pond is an application that allows users to browse through a curated selection of bourbon related items that are found on Etsy. The website pulls items from the Etsy API to display items on the site. The Bourbon Pond was also my first experience in using jQuery and methods such as forEach. </p>
+                    <span> Primary Technologies: HTML, CSS, JS, jQuery, Etsy API </span>
+                    <div class="two-buttons">
+                        <a href='http://lancegputnam.github.io/The-Bourbon-Pond-Day-11-jQuery'><button class="view-live-button button"> VIEW LIVE </button></a>
+                        <a href='https://github.com/lancegputnam/day-11-jquery'><button class="view-code-button button"> VIEW CODE </button></a>
+                    </div>
                 </div>
             </div>
             <div class="project-three">
-                <h2> CSS Transitions </h2>
                 <img src="https://farm4.staticflickr.com/3873/14522959229_f27645f504_o.png"/>
-                <p> This was one our earliest projects in The Iron Yard Academy. For the assignment, we had to create a collection of unique examples using various CSS transitions and animations. The examples include hover states, box-shadows, push buttons, pop-up text boxes, and key frames. </p>
-                <span> Primary Technologies: HTML, CSS </span>
-                <div class="three-buttons">
-                    <a href='http://lancegputnam.github.io/CSS-Examples-Day-5'><button class="view-live-button button"> VIEW LIVE </button></a>
-                    <a href='https://github.com/lancegputnam/day-five-project'><button class="view-code-button button"> VIEW CODE </button></a>
+                <div class="css-float">
+                    <h2> CSS Transitions </h2>
+                    <p> This was one our earliest projects in The Iron Yard Academy. For the assignment, we had to create a collection of unique examples using various CSS transitions and animations. The examples include hover states, box-shadows, push buttons, pop-up text boxes, and key frames. </p>
+                    <span> Primary Technologies: HTML, CSS </span>
+                    <div class="three-buttons">
+                        <a href='http://lancegputnam.github.io/CSS-Examples-Day-5'><button class="view-live-button button"> VIEW LIVE </button></a>
+                        <a href='https://github.com/lancegputnam/day-five-project'><button class="view-code-button button"> VIEW CODE </button></a>
+                    </div>
                 </div>
             </div>
             <div class="project-four">
-                <h2> FolkGram </h2>
                 <img src="https://farm6.staticflickr.com/5563/14522869740_fda3b5bcb0_o.png"/>
-                <p> After working with Backbone, our class made the transition to Parse and created photo applications with the language. FolkGram allows you to add a photo and caption, which will post on the application. The next step in this application will be to allow for the ability to add a frame or filter over any image and allow the user to save the image. </p>
-                <span> Primary Technologies: HTML, CSS, JS, Backbone, Parse </span>
-                <div class="four-buttons">
-                    <a href='http://lancegputnam.github.io/parse-image-app'><button class="view-live-button button"> VIEW LIVE </button></a>
-                    <a href='https://github.com/lancegputnam/parse-image-app'><button class="view-code-button button"> VIEW CODE </button></a>
+                <div class="folkgram-float">
+                    <h2> FolkGram </h2>
+                    <p> After working with Backbone, our class made the transition to Parse and created photo applications with the language. FolkGram allows you to add a photo and caption, which will post on the application. The next step in this application will be to allow for the ability to add a frame or filter over any image and allow the user to save the image. </p>
+                    <span> Primary Technologies: HTML, CSS, JS, Backbone, Parse </span>
+                    <div class="four-buttons">
+                        <a href='http://lancegputnam.github.io/parse-image-app'><button class="view-live-button button"> VIEW LIVE </button></a>
+                        <a href='https://github.com/lancegputnam/parse-image-app'><button class="view-code-button button"> VIEW CODE </button></a>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="resume-page" id="resume">
             <h1> RESUME </h1>
-            <h2> EDUCATION </h2>
-                <ul class="years" style="list-style: none;">
-                    <li> 2014 </li>
-                    <li> 2013 </li>
-                    <li> 2012 </li>
-                </ul>
+ <!--            <div class="education-float">
+                <h2> EDUCATION </h2>
+                    <ul class="years" style="list-style: none;">
+                        <li> 2014 </li>
+                        <li> 2013 </li>
+                        <li> 2012 </li>
+                    </ul>
+            </div>
                 <ul class="degree" style="list-style: none;">
                     <li> Front End Engineering </li>
                     <li> MBA in Entrepreneurship </li>
@@ -118,13 +132,15 @@
                     <li> Clemson University </li>
                     <li> Presbyterian College </li>
                 </ul>
-            <h3> EXPERIENCE </h3>
-                <ul class="job-years" style="list-style: none;">
-                    <li> 2012-Present </li>
-                    <li> 2013-2014 </li>
-                    <li> 2007-2013 </li>
-                    <li> 2012 </li>
-                </ul>
+            <div class="experience-float">
+                <h3> EXPERIENCE </h3>
+                    <ul class="job-years" style="list-style: none;">
+                        <li> 2012-Present </li>
+                        <li> 2013-2014 </li>
+                        <li> 2007-2013 </li>
+                        <li> 2012 </li>
+                    </ul>
+            </div>
                 <ul class="positions" style="list-style: none;">
                     <li> Creative Consultant </li>
                     <li> Retail and Operations Manager </li>
@@ -136,14 +152,69 @@
                     <li> Linda McDougald Design </li>
                     <li> SCP Collectibles </li>
                     <li> Ania, LLC </li>
-                </ul>
+                </ul> -->
+                <div class="table-one">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>EDUCATION</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>2014</td>
+                            <td>Front-End Engineering</td>
+                            <td>The Iron Yard Academy</td>
+                        </tr>
+                        <tr>
+                            <td>2013</td>
+                            <td>MBA in Entrepreneurship</td>
+                            <td>Clemson University</td>
+                        </tr>
+                        <tr>
+                            <td>2012</td>
+                            <td>BA in Visual Arts</td>
+                            <td>Presbyterian College</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table-two">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>EXPERIENCE</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>2012-Present</td>
+                            <td>Creative Consultant</td>
+                            <td>Freelance</td>
+                        </tr>
+                        <tr>
+                            <td>2013-2014</td>
+                            <td>Retail & Operations Manager</td>
+                            <td>Linda McDougald Design</td>
+                        </tr>
+                        <tr>
+                            <td>2007-2013</td>
+                            <td>Sales Associate</td>
+                            <td>SCP Collectibles</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
         </div>
 
         <div class="contact-page" id="contact">
             <div class="contact-info">
                 <h1> CONTACT </h1>
-                <span> 864-684-5894 </span>
-                <a href="mailto:lancegputnam@gmail.com"><span>lancegputnam[at]gmail.com </span></a>
+                <div class="contact-details">
+                    <span> 864-684-5894 </span>
+                    <a href="mailto:lancegputnam@gmail.com"><span>lancegputnam[at]gmail.com </span></a>
+                </div>
             </div>
             <div class="connect-info">
                 <h1> CONNECT </h1>
