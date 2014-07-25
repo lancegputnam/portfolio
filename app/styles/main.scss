@@ -15,10 +15,9 @@ body {
 .header {
     width: 100%; 
     height: 5em;
-    top: 0;
-    right: 0;
     background-color: #333333;
     position: fixed;
+    overflow: hidden;
     z-index: 1;
 
     ul {
@@ -47,7 +46,7 @@ body {
 
 .main-page {
     width: 100%; 
-    height: 45.250em;
+    height: 46.250em;
     top: 0;
     right: 0;
     background-color: #333333;
@@ -107,7 +106,7 @@ body {
     .float-right {
         float: right;
         width: 37%;
-        margin: 4em 10% 0 0;
+        margin: 4em 10% 5em 0;
     }
 
     img {
@@ -129,16 +128,29 @@ body {
         margin: 2.5em 0 2em 0;
     }
 
+    button {
+            font-family: 'Antic Slab', serif;
+            font-weight: bold;
+            margin-top: 27px;
+            width: 14%;
+            border: 0;
+            background-color: #d6d6d6;
+            border-radius: 2px;
+            height: 40px;
+            color: #453534;
+            font-size: .9em;
+        }
+
+        button:hover {
+            background-color: #99B2B7;
+        }
+
     .project-one {
 
         .entertrep-float {
         float: right;
         width: 90%;
-        margin: 2em -34% 0 0;
-        }
-
-        .one-buttons {
-        margin: -5em 0 0 43%;
+        margin: 0em -34% 0 0;
         }
 
         h2 {
@@ -160,7 +172,7 @@ body {
             width: 24%;
             height: 19.625em;
             border-radius: 175px;
-            margin: 2em 0 0 12%;
+            margin: 2em 0 4em 12%;
         }
     }
 
@@ -172,10 +184,6 @@ body {
             margin: 2em -34% 0 0;
         }
 
-        .two-buttons {
-            margin: -5em 0 0 43%;
-        }
-
         h2 {
             font-family: 'Dosis', sans-serif;
             font-size: 2em; 
@@ -195,7 +203,7 @@ body {
             width: 24%;
             height: 19.625em;
             border-radius: 175px;
-            margin: 2em 0 0 12%;
+            margin: 2em 0 4em 12%;
         }
     }
 
@@ -207,10 +215,6 @@ body {
             margin: 2em -34% 0 0;
         }
 
-        .three-buttons {
-            margin: -5em 0 0 43%;
-        }
-
         h2 {
             font-family: 'Dosis', sans-serif;
             font-size: 2em; 
@@ -230,7 +234,7 @@ body {
             width: 24%;
             height: 19.625em;
             border-radius: 175px;
-            margin: 2em 0 0 12%;
+            margin: 2em 0 4em 12%;
         }
     }
 
@@ -239,11 +243,7 @@ body {
         .folkgram-float {
             float: right;
             width: 90%;
-            margin: 2em -34% 0 0;
-        }
-
-        .four-buttons {
-            margin: -5em 0 0 43%;
+            margin: 0em -34% 0 0;
         }
 
         h2 {
@@ -270,22 +270,7 @@ body {
     }
 }
 
-button {
-    font-family: 'Antic Slab', serif;
-    font-weight: bold;
-    margin-top: 27px;
-    width: 14%;
-    border: 0;
-    background-color: #d6d6d6;
-    border-radius: 2px;
-    height: 40px;
-    color: #453534;
-    font-size: .9em;
-}
 
-button:hover {
-    background-color: #99B2B7;
-    }
 
 .resume-page {
     width: 100%; 
@@ -307,7 +292,30 @@ button:hover {
         font-size: 2em;
         color: white; 
     }
+
+    table { 
+      width: 85%; 
+      border-collapse: collapse; 
+      margin: 0 0 6em 7%;
+    }
+    /* Zebra striping */
+    tr { 
+      color: white;
+      font-family: 'Antic Slab', serif;
+      font-size: 1.5em;
+    }
+    th {  
+      color: white; 
+      font-family: 'Dosis', sans-serif;
+      font-size: 2em;
+    }
+    td, th { 
+      padding: 6px; 
+      text-align: left; 
+    }
 }
+
+
 
 
 .contact-page {
@@ -369,12 +377,6 @@ button:hover {
 
 
 
-
-
-
-
-
-
 ////////// MEDIA QUERIES ////////////
 
 @media screen and (max-width: 1200px) {
@@ -389,36 +391,6 @@ button:hover {
         word-spacing: 60px;
     }
 }
-
-// @media screen and (max-width: 1200px) {
-//     .about-page img {
-//         width: 20%;
-//         margin-top: 2em;
-//     }
-
-//     .about-page h1 {
-//         font-size: 2.5em;
-//     }
-
-//     .about-page p {
-//         font-size: 1em;
-//     }
-// }
-
-// @media screen and (max-width: 900px) {
-//     .about-page img {
-//         width: 18%;
-//         margin-top: 2em;
-//     }
-
-//     .about-page h1 {
-//         font-size: 2em;
-//     }
-
-//     .about-page p {
-//         font-size: .90em;
-//     }
-// }
 
 @media screen and (max-width: 500px) {
     .header ul {
@@ -604,69 +576,24 @@ button:hover {
         margin: 15em 0 0 24%;
     }
 
-    
-
-    // .resume-page h1 {
-    //     font-size: 1.53em;
-    // }
-
-    // .resume-page h2 {
-    //     font-size: 1.5em;
-    // }
-
-    // .resume-page h3 {
-    //     font-size: 1.5em;
-    // }
-
-    // .years {
-    //     font-size: 1em;
-    //     margin: 13em 0 0 -8%;
-    // }
-
-    // .degree {
-    //     font-size: 1em;
-    //     margin: 13em 0 0 -31%;
-    // }
-
-    // .degree li {
-    //     width: 200px;
-    //     margin-left: 115%;
-    // }
-
-    // .positions li {
-    //     width: 200px;
-    //     margin-left: 105%;
-    // }
-
-    // .school {display:none;}
-
-    // .job-years {display:none;}
-
-    // .positions {
-    //     font-size: 1em;
-    //     margin: 28em 0 0 -50%;
-    // }
-
-    // .companies {display:none;}
-
     .contact-page {
         height: 25em;
-    }
 
-    .contact-info h1 {
-        font-size: 1.53em;
-    }
+        .contact-info h1 {
+            font-size: 1.53em;
+        }
 
-    .contact-info span {
-        font-size: 1.4em;
-    }
+        .contact-info span {
+            font-size: 1.4em;
+        }
 
-    .connect-info h1 {
-        font-size: 1.53em;
-    }
+        .connect-info h1 {
+            font-size: 1.53em;
+        }
 
-    .connect-info img {
-        width: 14%
+        .connect-info img {
+            width: 4%
+        }
     }
 }
 
@@ -676,26 +603,7 @@ button:hover {
 
 
 
-table { 
-  width: 85%; 
-  border-collapse: collapse; 
-  margin: 0 0 6em 7%;
-}
-/* Zebra striping */
-tr { 
-  color: white;
-  font-family: 'Antic Slab', serif;
-  font-size: 1.5em;
-}
-th {  
-  color: white; 
-  font-family: 'Dosis', sans-serif;
-  font-size: 2em;
-}
-td, th { 
-  padding: 6px; 
-  text-align: left; 
-}
+
 
 @media 
 only screen and (max-width: 760px),
@@ -712,7 +620,7 @@ only screen and (max-width: 760px),
     }
 
     .table-one td, .table-two td { 
-        font-size: .8em
+        font-size: .7em
     }
 
     .resume-page {
@@ -720,6 +628,10 @@ only screen and (max-width: 760px),
 
         h1 {
             font-size: 1.53em;
+        }
+
+        .table-one th, .table-two th {
+            font-size: 1em;
         }
     }
 }
