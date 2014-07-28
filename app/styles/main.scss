@@ -403,8 +403,10 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-    .header ul {
+    .header {
+        ul {
        margin-left: 11%;
+        }
     }
 }
 
@@ -415,12 +417,15 @@ body {
 }
 
 @media only screen and (max-width : 1000px) {
-    .header ul {
-        margin-left: 15%;
-    }
+    .header {
 
-    .header li {
+        ul {
+        margin-left: 15%;
+        }
+
+        li {
         word-spacing: 105px;
+        }
     }
 
     .main-page img {
@@ -435,37 +440,39 @@ body {
 }
 
 @media screen and (max-width: 850px) {
-    .header ul {
+    .header { 
+        ul {
        margin-left: 11%;
+        }
     }
 }
 
 @media screen and (max-width: 750px) {
-    .header li {
+    .header {
+        li {
        word-spacing: 60px;
+        }
     }
 }
 
 @media screen and (max-width: 625px) {
-    .header li {
+    .header {
+        li {
         word-spacing: 40px;
+        }
     }
 }
 
 @media screen and (max-width: 545px) {
-    .header li {
+    .header {
+        li {
         word-spacing: 30px;
+        }
     }
 }
 
 @media screen and (max-width: 485px) {
-    .header li {
-        word-spacing: 10px;
-    }
-
-    .header ul {
-       margin-left: 3%;
-    }
+    .header {display: none;}
 }
 
 @media only screen and (max-width : 700px) {
@@ -542,93 +549,6 @@ body {
         }
     }  
 }
-
-// @media screen and (max-width: 1000px) {
-// .projects-page {
-
-
-//         .one-buttons, .two-buttons, .three-buttons, .four-buttons {
-//             margin-left: -50%;
-//             margin-bottom: 2em;
-//         }
-
-//         .four-buttons {
-//             margin-bottom: 4em;
-//         }
-
-//     .project-one {
-
-//         .entertrep-float {
-//         float: none;
-//         width: 100%;
-//         margin: 2em 0 0 27%;
-//         text-align: center;
-//         }
-
-//         img {
-//             width: 45%;
-//             height: auto;
-//             border-radius: 175px;
-//             margin: 0 auto;
-//             display: block;
-//         }
-//     }
-
-//     .project-two {
-
-//         .bourbon-float {
-//             float: none;
-//             width: 100%;
-//             margin: 2em 0 0 27%;
-//             text-align: center;
-//         }
-
-//         img {
-//             width: 45%;
-//             height: auto;
-//             border-radius: 175px;
-//             margin: 0 auto;
-//             display: block;
-//         }
-//     }
-
-//     .project-three {
-
-//         .css-float {
-//            float: none;
-//             width: 100%;
-//             margin: 2em 0 0 27%;
-//             text-align: center;
-//         }
-
-//         img {
-//             width: 45%;
-//             height: auto;
-//             border-radius: 175px;
-//             margin: 0 auto;
-//             display: block;
-//         }
-//     }
-
-//     .project-four {
-
-//         .folkgram-float {
-//             float: none;
-//             width: 100%;
-//             margin: 3em 0 0 27%;
-//             text-align: center;
-//         }
-
-//         img {
-//             width: 45%;
-//             height: auto;
-//             border-radius: 175px;
-//             margin: 0 auto;
-//             display: block;
-//         }
-//     }
-// }
-// }
 
 @media screen and (max-width: 700px) {
 .projects-page {
