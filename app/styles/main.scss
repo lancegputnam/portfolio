@@ -402,13 +402,13 @@ body {
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .header {
-        ul {
-       margin-left: 11%;
-        }
-    }
-}
+// @media screen and (max-width: 1200px) {
+//     .header {
+//         ul {
+//        margin-left: 11%;
+//         }
+//     }
+// }
 
 @media screen and (max-width: 1050px) {
     .about-page p {
@@ -417,61 +417,61 @@ body {
 }
 
 @media only screen and (max-width : 1000px) {
-    .header {
+    // .header {
 
-        ul {
-        margin-left: 15%;
-        }
+    //     ul {
+    //     margin-left: 15%;
+    //     }
 
-        li {
-        word-spacing: 105px;
-        }
-    }
+    //     li {
+    //     word-spacing: 105px;
+    //     }
+    // }
 
     .main-page img {
         width: 35%;
     }
 }
 
-@media screen and (max-width: 990px) {
-    .bourbon-float {
-       margin-top: -25em;
-    }
-}
+// @media screen and (max-width: 990px) {
+//     .bourbon-float {
+//        margin-top: -25em;
+//     }
+// }
 
-@media screen and (max-width: 850px) {
-    .header { 
-        ul {
-       margin-left: 11%;
-        }
-    }
-}
+// @media screen and (max-width: 850px) {
+//     .header { 
+//         ul {
+//        margin-left: 11%;
+//         }
+//     }
+// }
 
-@media screen and (max-width: 750px) {
-    .header {
-        li {
-       word-spacing: 60px;
-        }
-    }
-}
+// @media screen and (max-width: 750px) {
+//     .header {
+//         li {
+//        word-spacing: 60px;
+//         }
+//     }
+// }
 
-@media screen and (max-width: 625px) {
-    .header {
-        li {
-        word-spacing: 40px;
-        }
-    }
-}
+// @media screen and (max-width: 625px) {
+//     .header {
+//         li {
+//         word-spacing: 40px;
+//         }
+//     }
+// }
 
-@media screen and (max-width: 545px) {
-    .header {
-        li {
-        word-spacing: 30px;
-        }
-    }
-}
+// @media screen and (max-width: 545px) {
+//     .header {
+//         li {
+//         word-spacing: 30px;
+//         }
+//     }
+// }
 
-@media screen and (max-width: 485px) {
+@media screen and (max-width: 1055px) {
     .header {display: none;}
 }
 
@@ -550,11 +550,131 @@ body {
     }  
 }
 
+@media screen and (max-width: 1300px) {
+.projects-page {
+
+        .one-buttons, .two-buttons, .three-buttons, .four-buttons {
+            margin-left: -50%;
+            margin-bottom: 2em;
+        }
+
+        .four-buttons {
+            margin-bottom: 4em;
+        }
+
+    .project-one {
+
+        .entertrep-float {
+        float: none;
+        width: 100%;
+        margin: 2em 0 0 27%;
+        text-align: center;
+        }
+
+        h2 {
+            margin-right: 50%;
+        }
+
+        span {
+            margin-right: 50%;
+        }
+
+        img {
+            width: 35%;
+            height: auto;
+            border-radius: 175px;
+            margin: 0 0 0 33%;
+            display: block;
+        }
+
+    }
+
+    .project-two {
+
+        .bourbon-float {
+            float: none;
+            width: 100%;
+            margin: 2em 0 0 27%;
+            text-align: center;
+        }
+
+         h2 {
+            margin-right: 50%;
+        }
+
+        span {
+            margin-right: 50%;
+        }
+
+        img {
+            width: 35%;
+            height: auto;
+            border-radius: 175px;
+            margin: 0 0 0 33%;
+            display: block;
+        }
+    }
+
+    .project-three {
+
+        .css-float {
+           float: none;
+            width: 100%;
+            margin: 2em 0 0 27%;
+            text-align: center;
+        }
+
+        h2 {
+            margin-right: 50%;
+        }
+
+        span {
+            margin-right: 50%;
+        }
+
+        img {
+            width: 35%;
+            height: auto;
+            border-radius: 175px;
+            margin: 0 0 0 33%;
+            display: block;
+        }
+    }
+
+    .project-four {
+
+        .folkgram-float {
+            float: none;
+            width: 100%;
+            margin: 3em 0 0 27%;
+            text-align: center;
+        }
+
+        h2 {
+            margin-right: 50%;
+        }
+
+        span {
+            margin-right: 50%;
+        }
+
+        img {
+            width: 35%;
+            height: auto;
+            border-radius: 175px;
+            margin: 0 0 0 33%;
+            display: block;
+        }
+    }
+}
+}
+
 @media screen and (max-width: 700px) {
 .projects-page {
 
         h1 {
             font-size: 1.5em;
+            margin-left: 2%;
         }
 
         .one-buttons, .two-buttons, .three-buttons, .four-buttons {
@@ -588,7 +708,7 @@ body {
             width: 45%;
             height: auto;
             border-radius: 175px;
-            margin: 0 auto;
+            margin: 0 0 0 28%;
             display: block;
         }
 
@@ -619,7 +739,7 @@ body {
             width: 45%;
             height: auto;
             border-radius: 175px;
-            margin: 0 auto;
+            margin: 0 0 0 28%;
             display: block;
         }
     }
@@ -648,7 +768,7 @@ body {
             width: 45%;
             height: auto;
             border-radius: 175px;
-            margin: 0 auto;
+            margin: 0 0 0 28%;
             display: block;
         }
     }
@@ -677,7 +797,7 @@ body {
             width: 45%;
             height: auto;
             border-radius: 175px;
-            margin: 0 auto;
+            margin: 0 0 -1em 29%;
             display: block;
         }
     }
