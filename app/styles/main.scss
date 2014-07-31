@@ -534,6 +534,7 @@ body {
             border-radius: 175px;
             margin: 0 0 0 33%;
             display: block;
+            float: left;
         }
 
     }
@@ -562,6 +563,7 @@ body {
             border-radius: 175px;
             margin: 0 0 0 33%;
             display: block;
+            float: left;
         }
     }
 
@@ -589,6 +591,8 @@ body {
             border-radius: 175px;
             margin: 0 0 0 33%;
             display: block;
+            float: left;
+
         }
     }
 
@@ -616,17 +620,11 @@ body {
             border-radius: 175px;
             margin: 0 0 0 33%;
             display: block;
+            float: left;
         }
     }
 }
 }
-
-    // @media screen and (max-width: 1000px) {
-    // .header {
-    //     ul {
-    //         margin-left: 15%
-    //     }
-    // }
 
 @media screen and (max-width: 850px) {
 .header {
@@ -791,7 +789,7 @@ body {
 }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
 .header {
 
     li {
