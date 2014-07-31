@@ -24,15 +24,19 @@ body {
     ul {
         font-family: 'Antic Slab', serif;
         color: white;
-        margin: 2em 0 0 20%;
-        position: absolute;
-        display: inline;
-        word-spacing: 170px;
+        margin: 2em auto 0 auto;
+        display: block;
+        max-width: 750px;
+        padding: 0;
     }
 
     li {
-        display: inline;
-        word-spacing: 160px;
+        display: inline-block;
+        margin-right: 19%;
+    }
+
+    li:last-of-type {
+        margin-right: 0;
     }
 
     a {
@@ -247,7 +251,7 @@ body {
         .folkgram-float {
             float: right;
             width: 90%;
-            margin: 0em -34% 0 0;
+            margin: 1em -34% 0 0;
             display: inline;
         }
 
@@ -406,14 +410,6 @@ body {
     }
 }
 
-// @media screen and (max-width: 1200px) {
-//     .header {
-//         ul {
-//        margin-left: 11%;
-//         }
-//     }
-// }
-
 @media screen and (max-width: 1050px) {
     .about-page p {
        margin-bottom: 5em;
@@ -421,63 +417,11 @@ body {
 }
 
 @media only screen and (max-width : 1000px) {
-    // .header {
-
-    //     ul {
-    //     margin-left: 15%;
-    //     }
-
-    //     li {
-    //     word-spacing: 105px;
-    //     }
-    // }
-
     .main-page img {
         width: 35%;
     }
 }
 
-// @media screen and (max-width: 990px) {
-//     .bourbon-float {
-//        margin-top: -25em;
-//     }
-// }
-
-// @media screen and (max-width: 850px) {
-//     .header { 
-//         ul {
-//        margin-left: 11%;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 750px) {
-//     .header {
-//         li {
-//        word-spacing: 60px;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 625px) {
-//     .header {
-//         li {
-//         word-spacing: 40px;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 545px) {
-//     .header {
-//         li {
-//         word-spacing: 30px;
-//         }
-//     }
-// }
-
-// @media screen and (max-width: 1055px) {
-//     .header {display: none;}
-// }
 
 @media only screen and (max-width : 700px) {
     .about-page {
@@ -677,8 +621,37 @@ body {
 }
 }
 
+    // @media screen and (max-width: 1000px) {
+    // .header {
+    //     ul {
+    //         margin-left: 15%
+    //     }
+    // }
+
+@media screen and (max-width: 850px) {
+.header {
+
+    li {
+        margin-right: 16%;
+    }
+
+    ul {
+        margin-left: 10%
+    }
+}
+}
+
 @media screen and (max-width: 700px) {
-.header {display: none;}
+.header {
+
+    li {
+        margin-right: 10%
+    }
+
+    ul {
+        margin-left: 16%
+    }
+}
 
 .projects-page {
 
@@ -818,6 +791,18 @@ body {
 }
 }
 
+@media screen and (max-width: 500px) {
+.header {
+
+    li {
+        margin-right: 3%
+    }
+
+    ul {
+        margin-left: 13%
+    }
+}
+}
 
 @media 
 only screen and (max-width: 760px),
