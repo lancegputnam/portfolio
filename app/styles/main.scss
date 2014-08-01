@@ -789,17 +789,8 @@ body {
 }
 }
 
-@media screen and (max-width: 480px) {
-.header {
-
-    li {
-        margin-right: 3%
-    }
-
-    ul {
-        margin-left: 13%
-    }
-}
+@media screen and (max-width: 568px) {
+.header {display: none;}
 }
 
 @media 
